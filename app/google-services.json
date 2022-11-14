@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "420025471320",
+    "firebase_url": "https://authenticate-a535f-default-rtdb.firebaseio.com",
+    "project_id": "authenticate-a535f",
+    "storage_bucket": "authenticate-a535f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420025471320:android:375ddf78e6358c443d952d",
+        "android_client_info": {
+          "package_name": "com.example.authen2222"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "420025471320-l9a9a5sm6edemno66hijsjo9ik709n56.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBT6E2tC3ycDFJ-PmjpmhZhd6D18bTLOq4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "420025471320-l9a9a5sm6edemno66hijsjo9ik709n56.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

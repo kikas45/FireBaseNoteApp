@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp">
+
+
+
+
+    <TextView
+        android:id="@+id/_singup_new"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="60dp"
+        android:textSize="36sp"
+        android:padding="10dp"
+        android:textColor="@color/teal_700"
+        android:text="New uswer sign up "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/email_textfiled_signup"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/_singup_new">
+
+        <EditText
+            android:id="@+id/email_signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your email"
+            app:layout_constraintBottom_toBottomOf="@+id/email_textfiled"
+            app:layout_constraintEnd_toEndOf="@+id/email_textfiled"
+            app:layout_constraintStart_toStartOf="@+id/email_textfiled"
+            app:layout_constraintTop_toTopOf="@+id/email_textfiled" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/password_textfiled_signup"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:text="Button"
+        app:passwordToggleEnabled="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email_textfiled_signup">
+
+        <EditText
+            android:id="@+id/edit_password_signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your Password"
+            app:layout_constraintBottom_toBottomOf="@+id/password_textfiled"
+            app:layout_constraintEnd_toEndOf="@+id/password_textfiled"
+            app:layout_constraintStart_toStartOf="@+id/password_textfiled"
+            app:layout_constraintTop_toTopOf="@+id/password_textfiled" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <TextView
+        android:id="@+id/btn_sign_up"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/btn_background"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?android:selectableItemBackground"
+        android:gravity="center"
+        android:text="Sign Up"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password_textfiled_signup"
+        tools:ignore="UnusedAttribute" />
+
+    <TextView
+        android:id="@+id/text_want_to_login_signup"
+        style="@style/Theme.Authen2222"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?android:selectableItemBackground"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Want to login"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/btn_sign_up"
+        app:layout_constraintStart_toStartOf="@+id/btn_sign_up"
+        app:layout_constraintTop_toBottomOf="@+id/btn_sign_up" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
